@@ -15,10 +15,11 @@ Employee attrition is a major challenge for organizations. This application pred
 ## 📸 Application Screenshots
 
 ### Input Form
-![App Home](SS1.png)
+![App Home](screenshots/SS1.png)
 
 ### Prediction Result
-![Prediction Result](SS2.png)
+![Prediction Result](screenshots/SS2.png)
+
 
 
 ### Key Features
