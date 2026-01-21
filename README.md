@@ -82,11 +82,12 @@ streamlit run app.py
 ## 📊 Input & Output
 
 **Inputs**
-- Employee demographics and job attributes
-- Text-based employee feedback
+- Numerical: Age, Monthly Income, Years at Company, Work-Life Balance, Job Satisfaction, Performance Rating
+- Categorical: Gender, Department, Job Role, OverTime
+- Text: Employee Feedback
 
 **Output**
-- Attrition risk prediction with probability score
+- Attrition risk prediction with probability score(High Risk/Low Risk)
 
 ---
 
