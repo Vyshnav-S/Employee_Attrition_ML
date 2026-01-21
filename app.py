@@ -16,15 +16,12 @@ from sklearn.metrics import classification_report
 from imblearn.over_sampling import SMOTE
 from imblearn.pipeline import Pipeline as ImbPipeline
 
-# ===============================
-# CONFIG
-# ===============================
+
 DATA_PATH = "employee_attrition.csv"
 MODEL_PATH = "attrition_pipeline.pkl"
 
-# ===============================
 # TRAIN MODEL (ONLY IF NEEDED)
-# ===============================
+
 @st.cache_resource
 def train_and_save_model():
 
@@ -89,17 +86,14 @@ def train_and_save_model():
     joblib.dump(pipeline, MODEL_PATH)
     return pipeline
 
-# ===============================
 # LOAD MODEL
-# ===============================
+
 if os.path.exists(MODEL_PATH):
     model = joblib.load(MODEL_PATH)
 else:
     model = train_and_save_model()
 
-# ===============================
 # STREAMLIT UI
-# ===============================
 st.set_page_config(page_title="Employee Attrition Predictor")
 
 st.title("👩‍💼 Employee Attrition Prediction")
