@@ -10,6 +10,17 @@ This project demonstrates data preprocessing, feature engineering, handling clas
 
 Employee attrition is a major challenge for organizations. This application predicts attrition risk and provides real-time predictions through a Streamlit interface.
 
+---
+
+## 📸 Application Screenshots
+
+### Input Form
+![App Home](SS1.png)
+
+### Prediction Result
+![Prediction Result](SS2.png)
+
+
 ### Key Features
 - ML pipeline using **scikit-learn**
 - Numerical, categorical, and text feature handling
